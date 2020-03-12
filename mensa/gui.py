@@ -33,7 +33,7 @@ def read_schild_txt(path):
 
 # Mockup / Test
 def gen_users():
-    users = [user for user in read_schild_txt('Klasse052.TXT')]
+    users = [user for user in read_schild_txt('Test.TXT')]
     shuffle(users) # works in place
     for user in users:
         yield user
